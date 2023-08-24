@@ -1,0 +1,86 @@
+.form {
+    background-color: transparent;
+    margin: 0 50px 70px 50px;
+    padding: 60px 30px 60px 30px;
+    content: "";
+    opacity: 0.9;
+    background-image: url('https://www.pubgmobile.com/act/a20210922unbind/img/con_bg.png');
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    min-width: 980px;
+
+    .title {
+        font-family: "Horta", sans-serif;
+        font-weight: bold;
+        line-height: 50px;
+        font-size: 30px;
+        color: #c7dee9;
+        text-shadow: 5px 5px 10px #2f3843;
+        margin: 0 0 15px 0;
+    }
+
+    .span {
+        padding: 0 0 0 15px;
+    }
+
+    .spanYellow {
+        color: #ebc03c;
+    }
+
+    .input {
+        background-image: url('https://www.pubgmobile.com/act/a20210922unbind/img/select_bg.png');
+        background-color: #2f3843;
+        width: 980px;
+        height: 70px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+
+        border: none;
+        outline: none;
+        padding: 1px 15px;
+        margin: 0 0 0 27px;
+
+        font-family: "Horta", sans-serif;
+        font-weight: bold;
+        line-height: 50px;
+        font-size: 30px;
+        color: #c7dee9;
+    }
+
+    .buttonWrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button {
+        width: 260px;
+        height: 85px;
+        padding: 0;
+        margin: 0;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        background-image: url('https://www.pubgmobile.com/act/a20210922unbind/img/btn_shi.png');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        font-family: "Horta", sans-serif;
+        font-weight: bold;
+        line-height: 50px;
+        font-size: 37px;
+        color: #000;
+        cursor: pointer;
+    }
+
+    .textPoint {
+        color: #c0c5c8;
+        font-size: 24px;
+        font-family: "Horta", sans-serif;
+        font-weight: bold;
+        margin: 0 0 15px 30px;
+    }
+}

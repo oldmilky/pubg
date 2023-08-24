@@ -1,0 +1,52 @@
+.header {
+    background-color: transparent;
+    padding: 0 30px 40px 0;
+    margin: 70px 50px 0px 50px;
+    content: "";
+    opacity: 0.9;
+
+    display: flex;
+    align-items: center;
+    min-width: 980px;
+
+    .back {
+        background-image: url('https://www.pubgmobile.com/act/a20210922unbind/img/btn_back.png');
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100%;
+        background-position: top;
+
+        outline: none;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .title {
+        font-family: "Horta", sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        color: #bde9f2;
+        margin: 0 20px 0 20px;
+    }
+
+    .button {
+        width: 300px;
+        height: 80px;
+        background-image: url('https://www.pubgmobile.com/act/a20210922unbind/img/btn_ss_record.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        border: none;
+        outline: none;
+        background-color: transparent;
+        background-position: center;
+
+        font-family: "Horta", sans-serif;
+        font-weight: bold;
+        line-height: 50px;
+        font-size: 37px;
+        color: #000;
+    }
+}

@@ -1,0 +1,16 @@
+.sended {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px auto;
+    width: 100%;
+    height: 100%;
+
+    .text {
+        font-family: "Horta", sans-serif;
+        font-weight: bold;
+        font-size: 42px;
+        color: #c7dee9;
+        margin: 0;
+    }
+}

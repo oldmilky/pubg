@@ -1,0 +1,63 @@
+.proof {
+    background-color: transparent;
+    margin: 70px 50px 70px 50px;
+    padding: 60px 30px 60px 30px;
+    content: "";
+    opacity: 0.9;
+    background-image: url('https://www.pubgmobile.com/act/a20210922unbind/img/con_bg.png');
+
+    .title {
+        font-family: "Horta", sans-serif;
+        font-weight: bold;
+        font-size: 42px;
+        color: #c7dee9;
+        text-shadow: 5px 5px 10px #2f3843;
+        margin: 0 0 37px 0;
+    }
+
+    .subtitle {
+        font-family: "Horta", sans-serif;
+        font-weight: bold;
+        line-height: 50px;
+        font-size: 30px;
+        color: #c7dee9;
+        text-shadow: 5px 5px 10px #2f3843;
+        margin: 0 0 37px 0;
+    }
+
+    .subtitleActive {
+        font-family: "Horta", sans-serif;
+        font-weight: bold;
+        line-height: 50px;
+        font-size: 30px;
+        color: #ebc03c;
+        text-shadow: 5px 5px 10px #2f3843;
+        margin: 0 0 37px 0;
+    }
+
+    .buttonWrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button {
+        width: 260px;
+        height: 85px;
+        padding: 0;
+        margin: 0;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        background-image: url('https://www.pubgmobile.com/act/a20210922unbind/img/btn_shi.png');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        font-family: "Horta", sans-serif;
+        font-weight: bold;
+        line-height: 50px;
+        font-size: 37px;
+        color: #000;
+        cursor: pointer;
+    }
+}

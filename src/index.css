@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Horta";
+  src: url("./assets/fonts/horta.ttf") format("truetype");
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,22 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://www.pubgmobile.com/act/a20210922unbind/img/page_bg.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: "Horta", sans-serif;
 }
